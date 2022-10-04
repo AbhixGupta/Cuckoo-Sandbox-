@@ -37,10 +37,10 @@ sudo usermod -a -G vboxusers cuckoo
 
 #!/usr/bin/env bash
 
-# Author: Josh Stroschein
-# Source: https://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu
-# NOTES: Run this script as: sudo -u <USERNAME> cuckoo-setup-virtualenv.sh
-# Additionally, your environment may not allow the script to source bashrc and you may need to do this manually after the script completes
+#### Author: Josh Stroschein
+#### Source: https://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu
+#### NOTES: Run this script as: sudo -u <USERNAME> cuckoo-setup-virtualenv.sh
+ Additionally, your environment may not allow the script to source bashrc and you may need to do this manually after the script completes
 
 ```bash
 # install virtualenv
